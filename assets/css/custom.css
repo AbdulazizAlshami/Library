@@ -1,0 +1,27 @@
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.view {
+    position: relative;
+    overflow: hidden;
+    cursor: default;
+}
+.card.card-cascade .view.view-cascade {
+    border-radius: .25rem;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+}
+.card.card-cascade.wider .view.view-cascade {
+    z-index: 2;
+}
+main#ls .container-fluid {
+    padding: 0 !important;
+}
+main#ls {
+    margin: 0;
+    padding: 0;
+}
